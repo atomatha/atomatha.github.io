@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && bash script/deploy.sh dist"
+    "deploy": "npm run build && bash script/deploy.sh dist",
+    "rename:img": "cd public/assets/ && rename 's/^[^-]*.//g' *.jpg"
   },
   "dependencies": {
     "@refinitiv-ui/elements": "^6.8.2",

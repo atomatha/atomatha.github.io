@@ -1,0 +1,59 @@
+{
+  "step": 20,
+  "width": 512,
+  "height": 512,
+  "cfg": 7,
+  "clip_skip": 2,
+  "hash": "4199bcdd14",
+  "checkpoints": [
+    {
+      "label": "revAnimated_v122",
+      "value": "4199bcdd14",
+      "selected": true
+    },
+    {
+      "label": "anything-v4.5-pruned-fp32",
+      "value": "1d10a19f06"
+    },
+    {
+      "label": "magmix_v5",
+      "value": "051ad22b15"
+    }
+  ],
+  "main_tab_index": "txt2img",
+  "sampling_method": "eulera",
+  "sampling_methods": [
+    {
+      "label": "Euler a",
+      "value": "eulera",
+      "selected": true
+    },
+    {
+      "label": "DPM++ 2M Karras",
+      "value": "dpm2mk"
+    }
+  ],
+  "prompts_toggle": [
+    {
+      "label": "((best quality)),((masterpiece)),(detailed), 8k resolution",
+      "value": "1"
+    },
+    {
+      "label": "1girl",
+      "value": "2",
+      "selected": true
+    }
+  ],
+  "neg_prompts_toggle": [
+    {
+      "label": "(nsfw)",
+      "value": "0",
+      "selected": true,
+      "disabled": true
+    },
+    {
+      "label": "3d, cartoon, anime, sketches, (worst quality, bad quality, child, cropped: 1.4) ((monochrome)), ((grayscale))",
+      "value": "3"
+    }
+  ]
+}
